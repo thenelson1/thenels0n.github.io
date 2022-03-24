@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+    font-family: 'Poppins';
+}
+
+.container {
+    padding: 20px;
+}
+
+.first--semi--circle {
+    position: absolute;
+    padding: 100px 100px;
+    background-color: rgba(66, 69, 245, 0.44);
+    border: none;
+    margin-left: -140px;
+    margin-top: 40px;
+    border-top-right-radius: 120px;
+    border-end-end-radius: 120px;
+}
+
+.second--semi--circle {
+    position: absolute;
+    padding: 100px 100px;
+    background-color: rgba(66, 69, 245, 0.44);
+    border: none;
+    margin-left: -50px;
+    margin-top: -120px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+
+header {
+    margin-top: -20px;
+    height: 36vh;
+    background-color: rgba(39, 121, 226, 0.44);
+    align-content: center;
+    
+    .container {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        h4 {
+            font-size: 1.2em;
+            font-weight: 300;
+            position: relative;
+            color: #1D1D1D;
+
+
+        }
+
+    }
+}
+
+img {
+    width: 20px;
+    align-self: right;
+    padding-right: 5px;
+    align-self: center;
+
+}
+
+.profile-img-container {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.profile-img {
+    width: 7em;
+    border-radius: 5em;
+    margin-top: 3em;
+
+}
+
+h3 {
+    margin-top: -2px;
+    font-size: 1.2em;
+}
+
+.hero {
+
+    margin-top: -30px;
+
+    h5 {
+        text-align: right;
+        color: #1D1D1D;
+        font-size: 1.1em;
+        font-weight: 300;
+
+    }
+
+    .smart--watch {
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+
+        img {
+            margin-top: -10px;
+            align-self: center;
+            width: 100px;
+        }
+    }
+}
+
+.task {
+    margin-top: -60px;
+    margin-bottom: 30px;
+
+
+    .container {
+        h5 {
+            font-size: 1.3em;
+            font-weight: 400;
+        }
+
+        .task--container {
+            background-color: white;
+            padding:  10px 15px;
+            border-radius: 20px;
+            margin-top: -10px;
+            display: block;
+
+            .task--header {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                margin-top: -30px;
+
+                .task--plus {
+                    border: 1px solid rgb(39, 121, 226);
+                    padding: 1px 10px;
+                    border-radius: 2em;
+                    color: rgb(39, 121, 226);
+                }
+            }
+
+            .task--list {
+                display: flex;
+                flex-direction: column;
+                margin-top: -20px;
+
+                label {
+                    margin-bottom: 10px;
+                    font-size: 1.1em;
+                }
+
+                input {
+                    width: 20px;
+                    border: solid white;
+                    border-width: 0 3px 3px 0;
+                    padding: 1px 10px;
+
+                }
+            }
+        }
+    }
+}
+

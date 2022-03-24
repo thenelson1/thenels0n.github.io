@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAEAEA;
+  font-family: 'Poppins';
+}
+
+.container {
+  padding: 20px;
+}
+
+img {
+  width: 20px;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  padding-right: 5px;
+}
+
+.first--semi--circle {
+  position: absolute;
+  padding: 100px 100px;
+  background-color: rgba(39, 121, 226, 0.44);
+  border: none;
+  margin-left: -140px;
+  margin-top: 40px;
+  border-top-right-radius: 120px;
+  border-end-end-radius: 120px;
+}
+
+.second--semi--circle {
+  position: absolute;
+  padding: 100px 100px;
+  background-color: rgba(39, 121, 226, 0.44);
+  border: none;
+  margin-left: -50px;
+  margin-top: -120px;
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+header {
+  margin-top: -20px;
+}
+
+header .container {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+header .container h4 {
+  font-size: 1.2em;
+  font-weight: 300;
+  position: relative;
+}
+
+.hero .container {
+  width: 80%;
+  text-align: center;
+  margin-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero .container h5 {
+  color: #1D1D1D;
+  font-size: 1.1em;
+}
+
+.hero .container img {
+  width: 50%;
+}
+
+.register--button {
+  margin-top: 50px;
+  width: 100%;
+  padding: 16px;
+  background-color: #2779e2;
+  border: none;
+  font-size: 1.4em;
+  color: white;
+  font-weight: 700;
+}
+/*# sourceMappingURL=index.css.map */
