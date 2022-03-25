@@ -9,34 +9,38 @@ body {
   padding: 20px;
 }
 
+img {
+  width: 15px;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  padding-right: 5px;
+}
+
 .first--semi--circle {
   position: absolute;
-  padding: 100px 100px;
-  background-color: rgba(66, 69, 245, 0.44);
+  padding: 50px 50px;
+  background-color: rgba(39, 121, 226, 0.44);
   border: none;
-  margin-left: -140px;
-  margin-top: 40px;
+  margin-left: -70px;
+  margin-top: 0px;
   border-top-right-radius: 120px;
   border-end-end-radius: 120px;
 }
 
 .second--semi--circle {
   position: absolute;
-  padding: 100px 100px;
-  background-color: rgba(66, 69, 245, 0.44);
+  padding: 50px 50px;
+  background-color: rgba(39, 121, 226, 0.44);
   border: none;
-  margin-left: -50px;
-  margin-top: -120px;
+  margin-left: -30px;
+  margin-top: -60px;
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
 }
 
 header {
-  margin-top: -20px;
-  height: 36vh;
-  background-color: rgba(39, 121, 226, 0.44);
-  -ms-flex-line-pack: center;
-      align-content: center;
+  margin-top: -10px;
 }
 
 header .container {
@@ -54,10 +58,9 @@ header .container {
 }
 
 header .container h4 {
-  font-size: 1.2em;
+  font-size: .8em;
   font-weight: 300;
   position: relative;
-  color: #1D1D1D;
 }
 
 img {
